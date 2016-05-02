@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>olaponlineSales</Database>
+    <Server>ZALAK\MSSQLSERVERNEW</Server>
+    <ConnectionString>DataSource=ZALAK\MSSQLSERVERNEW;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>337YTCiczS9LrR22MJkiAyQqbs4=4/26/2016 11:10:20 PM4/26/2016 10:30:34 PM</TimeStamp>
+        <ID>
+          <String>Contoso Retail BI Original 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>KiuAQcTqf7s7kEOoISombnEMhbU=4/26/2016 12:59:28 PM4/26/2016 10:30:34 PM</TimeStamp>
+        <ID>
+          <String>Contoso Retail BI Original</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4QsLYaJhyTQfbQHsOseucQugqa0=4/26/2016 12:59:27 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>t/VvGf5MqFlu0DzHYCOpP9nCTt8=4/26/2016 2:55:04 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>U6ndCr/2IlKHljLbNwMR8C0bsPU=4/26/2016 11:46:51 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ohZiwKXwflNgqtkDoXuRtIFNBug=4/26/2016 11:46:51 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6fsOC/ZWdpBOUVJFVVW/XR8xQZ4=4/26/2016 1:12:33 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Promotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4tIQzsq+5KLSvGGfBZTMOh8jpKU=4/27/2016 5:56:23 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>O940j6hURGNkM6d/PiigPs4Fdtg=4/26/2016 1:29:48 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Online Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jrQEeh8ljO2OWCvgwBNDHDiqB0U=4/26/2016 11:47:29 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VYuX9s40Dlk/MQIpWQ8NdxWOCO4=4/26/2016 2:14:35 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Entity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>eJDw3pOXA0alzMLEob6dmHchOdk=4/27/2016 5:56:23 PM4/26/2016 10:30:34 PMzsxBfbBY0tSjINpmxpGzrTZp+Q0=4/26/2016 1:29:48 PM4/26/2016 10:30:35 PM</TimeStamp>
+        <ID>
+          <String>Contoso Retail BI Original</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>cmNycsHof1LrHibbyVigHyjRz7E=4/26/2016 12:21:41 PM4/26/2016 10:30:35 PM</TimeStamp>
+      <ID>
+        <String>olaponlineSales</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-04-27T21:56:32.39Z</LastDeployed>
+</DeploymentSnapshot>

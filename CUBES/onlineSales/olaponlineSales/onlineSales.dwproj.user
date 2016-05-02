@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Contoso Retail BI Original 1</Id>
+            <Name>Contoso Retail BI Original 1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhBAlKoa/k0+n9j8TF1hQvgAAAAA6AAAAQwBvAG4AdABvAHMAbwAgAFIAZQB0AGEAaQBsACAAQgBJACAATwByAGkAZwBpAG4AYQBsACAAMQAAABBmAAAAAQAAIAAAABCcVImcEbFooUf35pqJ2r+jwioQvvOANSmZBthf8jSwAAAAAA6AAAAAAgAAIAAAAO5gxC5OYHhWsAe3FGrtTrccUiRyGcYJbzBzm+PlHZBxEAAAAAIRaJhkcRHHcmb6/x8kk59AAAAA6gtUyJnHyrEiFo8UtPIkYchjQOlceGsDzkvuU6cgH11uZhcI8Ov7ssn5RtylTWFrhEuhAHoWQ9N3T38G1L+a3w==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Contoso Retail BI Original 1</Id>
+            <Name>Contoso Retail BI Original 1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhBAlKoa/k0+n9j8TF1hQvgAAAAA6AAAAQwBvAG4AdABvAHMAbwAgAFIAZQB0AGEAaQBsACAAQgBJACAATwByAGkAZwBpAG4AYQBsACAAMQAAABBmAAAAAQAAIAAAAMTIRqb8//0vTylHV+SdcPm0Nutrebv7eFquncBmaBYCAAAAAA6AAAAAAgAAIAAAAMvArDdmcTLJGEJmkVTQL7KuYuFS+Uwkr/WtcqxrNtpIIAAAAAzfGTYQ3k9ddJHPECZzZYZqtF1SAu33VZJ1eE35NE/JQAAAAIeseCICTLH01aqCA5Qw/N7cMPYng+9dBwBEKr5QCff9SWN+6hcgXqWiQYmOwe5G0MoENA9ZJY+B5PAiMscy3sg=</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>ZALAK\MSSQLSERVERNEW</TargetServer>
+        <TargetDatabase>olaponlineSales</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
