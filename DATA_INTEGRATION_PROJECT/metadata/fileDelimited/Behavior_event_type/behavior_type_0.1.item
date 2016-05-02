@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Av7O0PbCEeW8uqe5SgMFGQ" name="behavior_type" dataPackage="_Av7O0fbCEeW8uqe5SgMFGQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Sonam/Desktop/DI - Data Sources/Behavior_Event_Type.txt" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Av7O0fbCEeW8uqe5SgMFGQ" name="default" dataManager="_Av7O0PbCEeW8uqe5SgMFGQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Av7O0vbCEeW8uqe5SgMFGQ" id="_WHrE8PbBEeW8uqe5SgMFGQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Av7O0_bCEeW8uqe5SgMFGQ" label="Behavior_Event_Id" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Av7O1PbCEeW8uqe5SgMFGQ" label="Behavior_Event_Desc" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Av7O1fbCEeW8uqe5SgMFGQ" label="Behavior_Event_Code" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

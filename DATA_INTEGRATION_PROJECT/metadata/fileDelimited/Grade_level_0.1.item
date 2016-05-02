@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_yQ6LEfbCEeW8uqe5SgMFGQ" name="Grade_level" dataPackage="_yQ6LEvbCEeW8uqe5SgMFGQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Sonam/Desktop/DI - Data Sources/Grade_Level.txt" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_yQ6LEvbCEeW8uqe5SgMFGQ" name="default" dataManager="_yQ6LEfbCEeW8uqe5SgMFGQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yQ6LE_bCEeW8uqe5SgMFGQ" id="_rWWzwPbCEeW8uqe5SgMFGQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yQ6LFPbCEeW8uqe5SgMFGQ" label="_Grade_Id_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yQ6LFfbCEeW8uqe5SgMFGQ" label="_Grade_Name_" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

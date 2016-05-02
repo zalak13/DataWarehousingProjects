@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_pGzVUfapEeWUBsrwiWrPCw" name="Excel_source_Student_Absence_AL" dataPackage="_pGzVUvapEeWUBsrwiWrPCw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Sonam/Desktop/DI - Data Sources/Student_Absence_AL.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pGzVUvapEeWUBsrwiWrPCw" name="default" dataManager="_pGzVUfapEeWUBsrwiWrPCw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pGzVU_apEeWUBsrwiWrPCw" id="_hKtBcPapEeWUBsrwiWrPCw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVVPapEeWUBsrwiWrPCw" label="_Absence_id_" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVVfapEeWUBsrwiWrPCw" label="_Absence_Date_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVVvapEeWUBsrwiWrPCw" label="_School_Number_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVV_apEeWUBsrwiWrPCw" label="_Grade_Name_" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVWPapEeWUBsrwiWrPCw" label="_PermNum_" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVWfapEeWUBsrwiWrPCw" label="_Reason_Code_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVWvapEeWUBsrwiWrPCw" label="_Section_Id_" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVW_apEeWUBsrwiWrPCw" label="_AbsencePeriods_" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVXPapEeWUBsrwiWrPCw" label="_AbsenceMinutes_" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVXfapEeWUBsrwiWrPCw" label="_Tardy_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGzVXvapEeWUBsrwiWrPCw" label="_Current_Flag_" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

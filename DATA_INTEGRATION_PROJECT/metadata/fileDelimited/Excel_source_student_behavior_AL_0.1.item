@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Ma9b8fapEeWUBsrwiWrPCw" name="Excel_source_student_behavior_AL" dataPackage="_Ma9b8vapEeWUBsrwiWrPCw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Sonam/Desktop/DI - Data Sources/Student_Behavior_AL.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Ma9b8vapEeWUBsrwiWrPCw" name="default" dataManager="_Ma9b8fapEeWUBsrwiWrPCw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Ma9b8_apEeWUBsrwiWrPCw" id="_-gtHkPaoEeWUBsrwiWrPCw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b9PapEeWUBsrwiWrPCw" label="_Event_Number_" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b9fapEeWUBsrwiWrPCw" label="_Behavior_Date_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b9vapEeWUBsrwiWrPCw" label="_PermNum_" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b9_apEeWUBsrwiWrPCw" label="_School_Number_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b-PapEeWUBsrwiWrPCw" label="_Behavior_Event_Code_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b-fapEeWUBsrwiWrPCw" label="_Behavior_Location_Code_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b-vapEeWUBsrwiWrPCw" label="_Grade_Name_" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b-_apEeWUBsrwiWrPCw" label="_Behavior_Role_ID_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b_PapEeWUBsrwiWrPCw" label="_Violence_Flag_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b_fapEeWUBsrwiWrPCw" label="_Weapon_Id_" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b_vapEeWUBsrwiWrPCw" label="_Current_Flag_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ma9b__apEeWUBsrwiWrPCw" label="_Employee_ID_" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

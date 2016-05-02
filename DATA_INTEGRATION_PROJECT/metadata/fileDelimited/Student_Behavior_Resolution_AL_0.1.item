@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_igtpIPcMEeW4Colz4xJ8gA" name="Student_Behavior_Resolution_AL" dataPackage="_igtpIfcMEeW4Colz4xJ8gA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Sonam/Desktop/DI - Data Sources/Student_Behavior_Resolution_AL.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_igtpIfcMEeW4Colz4xJ8gA" name="default" dataManager="_igtpIPcMEeW4Colz4xJ8gA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_igtpIvcMEeW4Colz4xJ8gA" id="_KZgYkPcMEeW4Colz4xJ8gA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLwT8PcMEeW4Colz4xJ8gA" label="_Resolution_Number_" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLwT8fcMEeW4Colz4xJ8gA" label="_Event_Number_" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLwT8vcMEeW4Colz4xJ8gA" label="_Behavior_Resolution_Code_" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLwT8_cMEeW4Colz4xJ8gA" label="_Start_Date_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLwT9PcMEeW4Colz4xJ8gA" label="_End_Date_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLwT9fcMEeW4Colz4xJ8gA" label="_Expulsion_Service_Flag_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
